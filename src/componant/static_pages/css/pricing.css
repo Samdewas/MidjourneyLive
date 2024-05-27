@@ -1,0 +1,257 @@
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #fff;
+  color: hsl(233, 13%, 49%);
+  border-radius: 0.8rem;
+}
+
+.cards .card.active {
+  background: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  transform: scale(1.1);
+  z-index: 1;
+}
+.cards ul {
+  margin: 2.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  justify-content: space-around;
+}
+.cards ul li {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 1rem 0;
+  color: #000;
+}
+
+.cards .card:nth-child(2) ul li {
+  color: #fff;
+}
+
+.cards ul li.price {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #000;
+  padding-bottom: 2rem;
+}
+.shadow {
+  box-shadow: -5px 5px 15px 1px rgba(0, 0, 0, 0.1);
+}
+
+.card.active .price {
+  color: #fff;
+}
+
+.cards .btn {
+  margin-top: 1rem;
+  height: 2.6rem;
+  width: 13.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  background: #000 !important;
+  color: #fff;
+  outline: none;
+  border: 0;
+  font-size: 14px;
+  font-weight: 500;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.cards .card:nth-child(2) .btn {
+  background-color: #fff !important;
+  color: #000;
+}
+
+.active-btn {
+  background: #fff;
+  color: hsl(237, 63%, 64%);
+}
+.bottom-bar {
+  border-bottom: 2px solid hsla(240, 8%, 85%, 0.582);
+}
+.card.active .bottom-bar {
+  border-bottom: 2px solid hsla(240, 8%, 85%, 0.253);
+}
+.pack {
+  font-size: 1.1rem;
+}
+
+.pricing_page .heading h1 {
+  font-weight: 600;
+  font-size: 50px;
+  /* font-family: 'Ubuntu'; */
+  letter-spacing: 1px;
+  color:#9DE8EE;
+}
+
+.pricing_page .heading h3 {
+  font-size: 18px;
+}
+
+.toggle {
+  margin: 0rem 0 4rem;
+  color: hsl(234, 14%, 74%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.toggle-btn {
+  margin: 0 1rem;
+}
+.checkbox {
+  display: none;
+}
+
+.toggle label {
+  font-size: 15px;
+  /* font-family: 'Ubuntu'; */
+  color: #000;
+  font-weight: 700;
+}
+
+
+.billing-type-btns {
+  margin-bottom: 60px;
+  background: #ececec9e;
+  margin: 30px auto 73px;
+  display: block;
+  max-width: 350px;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.billing-type-btns button {
+  max-width: 165px;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 20px;
+  white-space: nowrap;
+  border-radius: 12px;
+}
+
+.billing-type-btns button.active {
+  background: black;
+  color: #fff;
+}
+
+.sub {
+  background: #000;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 1.6rem;
+  width: 3.3rem;
+  border-radius: 1.6rem;
+  padding: 0.1rem;
+}
+.circle {
+  background-color: #fff;
+  height: 1.4rem;
+  width: 1.4rem;
+  border-radius: 50%;
+}
+.checkbox:checked + .sub {
+  justify-content: flex-end;
+}
+
+.pricing_faq {
+  border-radius: 70px;
+  background: #9de8ee17;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  margin-top: 5rem;
+}
+
+@media (max-width: 280px) {
+  .cards ul {
+    margin: 1rem;
+  }
+  .cards h1 {
+    font-size: 1.2rem;
+  }
+  .toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+  }
+  .cards {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    transform: scale(0.8);
+    margin-bottom: 1rem;
+  }
+  .cards .card.active {
+    transform: scale(0.8);
+  }
+}
+
+@media (min-width: 280px) and (max-width: 320px) {
+  .cards ul {
+    margin: 20px;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .card {
+    margin-bottom: 1rem;
+  }
+  .cards .card.active {
+    transform: scale(1);
+  }
+}
+
+@media (min-width: 320px) and (max-width: 414px) {
+  .cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .card {
+    margin-bottom: 1rem;
+  }
+  .cards .card.active {
+    transform: scale(1);
+  }
+}
+@media (min-width: 414px) and (max-width: 768px) {
+  .card {
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+  }
+  .cards .card.active {
+    transform: scale(1);
+  }
+}
+@media (min-width: 768px) and (max-width: 1046px) {
+  .cards {
+    display: flex;
+  }
+  .card {
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+  }
+  .cards .card.active {
+    transform: scale(1);
+  }
+}

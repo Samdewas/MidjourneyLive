@@ -1,0 +1,305 @@
+.Image-gallery-page {
+    /* background: #f6f3f2; */
+    /* height: calc(100vh - 56px); */
+    padding: 30px;
+    overflow: auto;
+}
+
+.Image-gallery-page .Image-gallery-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Image-gallery-page .Image-gallery-top .text {
+    width: 61%; 
+}
+
+.Image-gallery-page .Image-gallery-top .Image-gallery-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(20 20 20);
+    line-height: 2rem;
+    font-family: Jost;
+    margin-bottom: 10px;
+}
+
+.Image-gallery-desc {
+    color: rgb(137 137 137);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    font-family: Jost;
+}
+
+.Image-gallery-page .Image-gallery-top .theme-btn {
+    /* background: linear-gradient(180deg, #000000 0, #000000 100%) !important;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    font-family: Jost;
+    padding: 10px 20px;
+    border-radius: 10px; */
+    box-shadow : 0 12px 35px -10px rgba(118,60,212,.4);
+}
+
+.Image-gallery-filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.Image-gallery-filter .left-div {
+    display: flex;
+    align-items: center;
+}
+
+.Image-gallery-filter .left-div a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.Image-gallery-filter .left-div select {
+    min-width: 150px;
+    width: 100%;
+    border: 1px solid #898989;
+    border-radius: 12px;
+    height: 48px;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 9px 12px;
+    font-family: Jost;
+}
+
+.Image-gallery-filter .right-div {
+    vertical-align: middle;
+    font-family: Jost;
+    color: rgb(20 20 20);
+
+}
+
+.Image-gallery-filter .right-div svg {
+    display: inline-block;
+    margin-right: 6px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+.Image-gallery-mainBox {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    font-family: Jost;
+    column-count: 4;
+    column-gap: 0px;
+}
+
+.Image-gallery-mainBox .ImgGCol {
+    /* width: 19.3%; */
+    margin-bottom: 10px;
+    margin-right: 10px;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.5s all ease;
+}
+/* .Image-gallery-mainBox .ImgGCol:last-of-type {
+    margin-right: 0px;
+} */
+/* .Image-gallery-mainBox .ImgGCol .ImgGCol-inner::after, */
+ .Image-gallery-mainBox .ImgGCol .ImgGCol-inner{
+    transition: all 0.5s;
+    background: transparent;
+}
+.Image-gallery-mainBox .ImgGCol:hover .overlay001 {
+    background: linear-gradient(to top, #000, transparent, transparent, transparent, #000);
+    display: block;
+    content: '';
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.Image-gallery-mainBox .ImgGCol img, .Image-gallery-mainBox .react-loading-skeleton {
+    width: 100%;
+    /* height: 300px; */
+    /* object-fit: cover; */
+    border-radius: 10px;
+    transition: 0.5s all ease;
+}
+.Image-gallery-mainBox .ImgGCol:hover img {
+    /* transform: scale(1.2); */
+}
+.Image-gallery-mainBox .ImgGCol:hover .Image-gallery-title {
+    opacity: 1;
+}
+.Image-gallery-mainBox .ImgGCol .Image-gallery-title {
+    font-size: 14px;
+    line-height: 16px;
+    font-family: Jost;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    padding: 10px;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.Image-gallery-mainBox .ImgGCol:hover .Image-gallery-over-btns{
+    opacity: 1;
+}
+.Image-gallery-mainBox .ImgGCol .Image-gallery-over-btns {
+    position: absolute;
+    bottom: 5px;
+    display: flex;
+    width: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.Image-gallery-mainBox .ImgGCol .contentBoxDesc.topbtn {
+    position: absolute;
+    z-index: 2;
+    top: 0px;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.Image-gallery-mainBox .ImgGCol:hover .contentBoxDesc.topbtn {
+    opacity: 1;
+}
+.Image-gallery-mainBox .ImgGCol .Image-gallery-over-btns a {
+    /* width: 30px; */
+    /* height: 28px; */
+    background: #9de8ee;
+    color: #137a83;
+    margin: 0px 5px 6px 10px;
+    border-radius: 25px;
+    display: block;
+    height: 38px;
+    min-width: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 0 10px;
+}
+.Image-gallery-mainBox .ImgGCol .Image-gallery-over-btns a span {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+    display: block;
+}
+.Image-gallery-mainBox .ImgGCol .Image-gallery-over-btns a span svg {
+    margin-right: 5px;
+    position: relative;
+    top: -1px;
+}
+.Image-gallery-mainBox .ImgGCol .Image-gallery-over-btns svg path{
+    /* fill: #000; */
+}
+.Image-gallery-mainBox .ImgGCol .Image-gallery-over-btns .rightBtns svg {
+    display: inline;
+}
+
+@media (max-width:991px) {
+.Image-gallery-page {
+    height: 100%;
+    padding: 20px 20px 30px;
+}
+.Image-gallery-page .Image-gallery-top {
+    flex-wrap: wrap;
+}
+.Image-gallery-page .Image-gallery-top .text {
+    width: 100%;
+}
+.Image-gallery-page .Image-gallery-top .Image-gallery-title, .Image-gallery-desc {
+    margin-bottom: 12px
+}
+.Image-gallery-mainBox{
+    column-count: 1;
+}
+}
+
+@media (min-width:1280px) and (max-width:1439px){
+.Image-gallery-mainBox .ImgGCol {
+    /* width: 18.6%; */
+}
+.Image-gallery-mainBox .ImgGCol img, .react-loading-skeleton {
+    /* width: 100%; */
+    /* height: 185px; */
+}
+.gap-5 {
+    gap: 1rem!important;
+}
+.py-3 {
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+}
+.px-\[25px\] {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.rounded-xl {
+    border-radius: .35rem;
+}
+.text-16 {
+    font-size: 13px;
+    line-height: 24px;
+}
+.mt-6 {
+    margin-top: 1rem !important;
+}
+
+.Image-gallery-mainBox .ImgGCol .Image-gallery-over-btns a span {
+    font-size: 10px;
+}
+.Image-gallery-mainBox .ImgGCol .Image-gallery-over-btns .rightBtns svg,
+.Image-gallery-mainBox .ImgGCol .Image-gallery-over-btns .leftBtns svg{
+    width: 15px;
+    height: 15px;
+}
+.Image-gallery-mainBox .ImgGCol .Image-gallery-over-btns a {
+    height: 25px;
+    padding: 0 8px;
+    margin: 0px 1px 0px 7px;
+}
+}
+
+@media (min-width:1440px) and (max-width:1460px) {
+    .Image-gallery-mainBox .ImgGCol .Image-gallery-over-btns a span {
+        font-size: 12px;
+    }
+    .Image-gallery-mainBox .ImgGCol .Image-gallery-over-btns .rightBtns svg,
+    .Image-gallery-mainBox .ImgGCol .Image-gallery-over-btns .leftBtns svg{
+        width: 17px;
+        height: 17px;
+    }
+    .Image-gallery-mainBox .ImgGCol .Image-gallery-over-btns a {
+        height: 30px;
+        padding: 0 10px;
+        margin: 0px 1px 0px 7px;
+    }
+}
+@media (min-width:991px) and (max-width:1279px) {
+    .Image-gallery-mainBox .ImgGCol .Image-gallery-over-btns a span {
+        font-size: 10px;
+    }
+    .Image-gallery-mainBox .ImgGCol .Image-gallery-over-btns .rightBtns svg,
+    .Image-gallery-mainBox .ImgGCol .Image-gallery-over-btns .leftBtns svg{
+        width: 13px;
+        height: 13px;
+    }
+    .Image-gallery-mainBox .ImgGCol .Image-gallery-over-btns a {
+        height: 22px;
+        padding: 0 6px;
+        margin: 0px 1px 0px 7px;
+    }
+}

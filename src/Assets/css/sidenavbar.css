@@ -1,0 +1,152 @@
+.SidebarNavbar {
+    position: fixed;
+    width: 290px;
+    /* border-right: 1px solid #ddd; */
+    /* height: calc(100vh - 56px); */
+    height: calc(100vh);
+    transition: all .2s linear;
+    background-color: #000;
+    z-index: 1;
+    overflow: auto;
+    background-image: url('../img/SideBarBG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.SidebarNavbar .SidebarNavbar-inner {
+    /* padding-top: 10px; */
+}
+
+.SidebarNavbar .SidebarNavbar-inner ul li a.active,
+.SidebarNavbar .SidebarNavbar-inner ul li a:hover {
+    background: #9DE8EE;
+    border-right: 0;
+    color: #000;
+}
+
+.sidebar-top-logo {
+    border-bottom: 1px solid #dddddd2e;
+}
+
+.sidebar-top-logo a {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+}
+.SidebarNavbar .SidebarNavbar-inner ul {
+    padding: 30px;
+    list-style: none;
+}
+.SidebarNavbar .SidebarNavbar-inner ul li a {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    color: #fff;
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    border-radius: 35px;
+}
+
+.SidebarNavbar .SidebarNavbar-inner ul li a svg {
+    display: inline-block;
+    margin-right: 7px;
+    
+}
+.SidebarNavbar .SidebarNavbar-inner ul li a.active svg, .SidebarNavbar .SidebarNavbar-inner ul li a:hover svg {
+    filter: invert(1);
+}
+.SidebarNavbar .SidebarNavbar-inner .open-close-arrow svg {
+    position: absolute;
+    right: 8px;
+    top: 21px;
+    cursor: pointer;
+}
+
+.SidebarNavbar .SidebarNavbar-inner .line {
+    height: 2px;
+    background: #ddd;
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.SidebarNavbar .SidebarNavbar-inner .plan-card {
+    background-color: #f6f3f2;
+    margin: 0 30px;
+    padding: 20px;
+    border-radius: 20px;
+    /* border: 1px solid #ddd; */
+    transition: all .5s ease;
+    background: linear-gradient(180deg, rgb(36 52 53 / 17%) 0%, #243435 100%);
+    /* border: 1px solid; */
+    /* border-image-source: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%); */
+    position: absolute;
+    bottom: 30px;
+    /* border: 1px solid #dddddd40; */
+    width: 80%;
+    color: #fff;
+}
+
+.progress-fill {
+    animation: progress-forward 3s;
+    background: #22c1c3;
+    background: linear-gradient(90deg, #fd7f57 -17.86%, #e22861 25.88%, #763cd4 107.47%);
+}
+
+@keyframes progress-forward {
+    0% {
+        width: 0%
+    }
+}
+
+@media(max-width:991px) {
+    .SidebarNavbar {
+        height: 100vh;
+        z-index: 3;
+        overflow: auto;
+    }
+    .SidebarNavbar .SidebarNavbar-inner .plan-card {
+        margin-bottom: 50px;
+    }
+}
+
+
+
+
+@media (max-width:768px) {}
+@media (min-width:769px) and (max-width:991px) {}
+@media (min-width:991px) and (max-width:1279px) {}
+@media (min-width:1280px) and (max-width:1439px) {
+    .SidebarNavbar .SidebarNavbar-inner .plan-card {
+        position: static;
+        margin-bottom: 30px;
+    }
+    .sidebar-top-logo a, .user_dashborad_header_inner{
+        height: 55px;
+    }
+    .user_dashborad_header_inner .user-info, .user_dashborad_header_inner .user-info:hover {
+        padding: 4px ;
+    }
+    .pageTitle {
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .SidebarNavbar .SidebarNavbar-inner ul {
+        padding: 15px;
+    }
+    .SidebarNavbar .SidebarNavbar-inner ul li a{
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+    .main-container-dashboard{
+        padding-top: 55px;
+    }
+}
+@media (min-width:1440px) and (max-width:1900px) {}

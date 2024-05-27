@@ -1,0 +1,49 @@
+.contact-us, .privacy-policy, .faq_page {
+    font-family: Jost;
+}
+.contact-us .form-control {
+    box-shadow: none !important;
+    border-color: #ddd;
+    font-size: 16px;
+    background: transparent;
+    border-radius: 30px;
+    padding: 10px 20px;
+    color: #fff;
+}
+.form-label{
+    letter-spacing: 0;
+}
+.contact-us h1, .privacy-policy h1, .faq_page h1 {
+    font-size: 50px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.faq_page h3 {
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    /* color: #000; */
+}
+.fqa_q_box {
+    margin: 25px 0;
+    padding: 0 30px;
+    /* color: #000000; */
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.fqa_q_box p strong {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+@media(max-width: 768px){
+    .contact-us h1, .privacy-policy h1, .faq_page h1 {
+        font-size: 1.7rem;
+      }
+}
+
+.contact-us .form-select option {
+    background: #000;
+}

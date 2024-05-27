@@ -1,0 +1,160 @@
+.about-page {
+    font-family: Jost;
+  }
+  
+  .about-page h1, .about-page h2, .privacy-policy h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    line-height: 1.3;
+    text-transform: capitalize;
+    font-weight: 700;
+  }
+  .privacy-policy h4 {
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    line-height: 1.3;
+    text-transform: capitalize;
+  }
+  .about-page h2, .privacy-policy h2  {
+    margin-top: 30px;
+  }
+  .about-page p, .privacy-policy p {
+    line-height: 25px;
+    font-weight: 500;
+    /* font-size: 16px; */
+  }
+  .privacy-policy p b, .privacy-policy p a {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: block;
+    font-weight: 600;
+  }
+  .image-animate {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    column-gap: 20px;
+  }
+
+  .abt_heading {
+    font-weight: 800;
+    margin: 15px 0px;
+    font-size: 24px !important;
+}
+
+  
+  .image-animate .right,
+  .image-animate .left,
+  .image-animate .middle {
+    width: 33.333%;
+    min-height: 700px;
+    height: calc(100vh - 180px);
+  }
+  
+  .image-animate .right,
+  .image-animate .left {
+    animation: upAnime 120s infinite linear;
+  }
+  
+  .image-animate .middle {
+    animation: downAnime 120s infinite linear;
+  }
+  
+  .how-its-work-section .block h4 {
+    font-family: Jost;
+    font-weight: 700;
+  }
+  
+  .faq-section h2,
+  .how-its-work-section h2 {
+    font-size: 50px;
+    font-weight: 600;
+    /* letter-spacing: 3px; */
+    font-family: Jost;
+  }
+  
+  .hero-heading h1 {
+    line-height: 1;
+    font-size: 100px;
+    font-family: Jost;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 0 !important;
+  }
+  
+  .hero-heading p {
+    margin: 0;
+    letter-spacing: 4.8px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: Jost;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  @keyframes upAnime {
+    0% {
+      background-position: top;
+    }
+  
+    100% {
+      background-position: bottom;
+    }
+  }
+  
+  @keyframes downAnime {
+    0% {
+      background-position: bottom;
+    }
+  
+    100% {
+      background-position: up;
+    }
+  }
+  
+  @keyframes leftAnime {
+    0% {
+      background-position: left;
+    }
+  
+    100% {
+      background-position: right;
+    }
+  }
+  
+  @keyframes rightAnime {
+    0% {
+      background-position: right;
+    }
+  
+    100% {
+      background-position: left;
+    }
+  }
+  
+  .image-animate .left {
+    background: url('../img/LEFT.png') repeat top/cover;
+  }
+  .image-animate .middle {
+    background: url('../img/MIDDLE.png') repeat top/cover;
+  }
+  .image-animate .right {
+    background: url('../img/Right.png') repeat top/cover;
+  }
+
+
+  @media (max-width:991px) {
+    .about-page .image-animate {
+        max-height: 300px;
+        overflow: hidden;
+        margin-bottom: 20px;
+    }
+    .about-page h1, .about-page h2, .privacy-policy h1, .faq-section h2, .how-its-work-section h2 {
+        font-size: 24px;
+    }
+}
+@media (min-width:769px) and (max-width:991px) {}
+@media (min-width:991px) and (max-width:1279px) {}
+@media (min-width:1280px) and (max-width:1439px) {}
+@media (min-width:1440px) and (max-width:1900px) {}

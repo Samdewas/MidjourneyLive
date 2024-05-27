@@ -1,0 +1,118 @@
+.overlay {
+    position: fixed;
+    background: #00000078;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.5s ease;
+}
+@media (max-width:991px) {
+    img.dashborad-logo {
+        width: 150px;
+    }
+    .SidebarNavbar .SidebarNavbar-inner {
+        padding-top: 60px;
+    }
+
+    .user_dashborad_header_inner .user-info .user-img {
+        min-width: 30px;
+        margin-right: 0px;
+    }
+
+    .user_dashborad_header .mobile-toggle-icon svg {
+        /* filter: invert(1); */
+    }
+
+    .main-container-dashboard {
+        height: 100%;
+        width: 100%;
+        position: static;
+        padding-top: 60px;
+    }
+
+    .open-close-arrow {
+        display: none;
+    }
+
+    .dashboard-page-inner {
+        max-width: 90%;
+        margin: auto;
+        padding: 0;
+
+    }
+
+    .dashboard-page .top-title-box {
+        flex-wrap: wrap;
+    }
+
+    .dashboard-page .txt-box-top .title {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .user_dashborad_header {
+        overflow: visible;
+        position: fixed;
+        width: 100%;
+        z-index: 9999;
+        padding: 13px 8px;
+    }
+    .user_dashborad_header_inner .user-info .uname {
+        display: none;
+    }
+    .subscription_page .text-container-box .Subscription {
+        height: auto;
+    }
+
+    .\36xl\:w-\[650px\] {
+        width: auto;
+    }
+
+    .bg-color-F6 {
+        margin: 10px 0;
+    }
+
+    .text-container-box .neg-transition-scale {
+        transform: rotate(180deg);
+        position: absolute;
+        top: 17px;
+        left: 16px;
+    }
+    .subscription_page .text-container-box .title {
+        padding-left: 35px;
+    }
+    .subscription_page .text-container-box {
+       position: relative;
+    }
+    .sm\:gap-4 {
+        gap: 0.5rem;
+    }
+    .last-created-img .Image-gallery-mainBox .ImgGCol, .Image-gallery-mainBox .ImgGCol {
+        width: 100% !important;
+        margin: 0 0 15px !important;
+    }
+    .last-created-img .Image-gallery-mainBox {
+        padding: 0px;
+        column-count: 1;
+        margin-top: 15px;
+    }
+
+    .modal-backdrop {
+        z-index: 9999;
+    }
+    .modal {
+        z-index: 9999;
+    }
+    .imgDetailBox .img-box img {
+        width: 100%;
+    }
+    
+}
+
+@media (min-width:769px) and (max-width:991px) {}
+
+@media (min-width:991px) and (max-width:1279px) {}
+
+
+
+@media (min-width:1440px) and (max-width:1900px) {}
