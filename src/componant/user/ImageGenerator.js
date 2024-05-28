@@ -110,7 +110,7 @@ const ImageGenerator = () => {
       const path = "https://api.openai.com/v1/images/generations";
       const headers = {
         "Content-Type": "application/json",
-        Authorization: "",
+         "Authorization": "",
       };
       const body = {
         prompt: imageprompt,
