@@ -219,7 +219,7 @@ ul.btns-group, ul.contentBoxContent {
     font-family: Jost;
     font-size: 14px;
     background: transparent !important;
-    color: #fff;
+    color: #fff !important;
     outline: none !important;
 }
 

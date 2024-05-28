@@ -53,6 +53,9 @@ const Contactus = () => {
         <title>Contact Midjourney Free | AI-Powered Image Generation Tool</title>
         <meta name="description" content="Get in touch with Midjourney Free for inquiries, feedback, or support. Our team is
 here to assist you with questions regarding our AI-powered image generation tool."></meta>
+<meta name="keywords"
+    content="midjourney free, midjourney, ai image generator, midjourney ai, ai photo generator, ai generated images, free ai image generator, ai image generator free, mid journey, generate ai images, midjourney ai free, midjourneyfree, Midjourney free contact"></meta>
+         <link rel="alternate" to="https://www.midjourneyfree.ai/contact-us/about-us/" hreflang="en-us" />
         <link rel="canonical" to= "https://MidJourneyfree.com/contact-us"/>
       </Helmet>
     <div className="contact-us pb-3">

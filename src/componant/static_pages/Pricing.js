@@ -119,6 +119,9 @@ const Pricing = () => {
         <title>Check Out the Pricing Plans for Midjourney Free AI | Pricing</title>
         <meta name="description" content="Check out Midjourney Free&#39;s pricing options, an affordable access to AI-powered image generation. Choose the plan that suits your needs and budget!"></meta>
         <link rel="canonical" to= "https://MidJourneyfree.com/pricing"/>
+        <meta name="keywords"
+    content="midjourney free, midjourney, ai image generator, midjourney ai, ai photo generator, ai generated images, free ai image generator, ai image generator free, mid journey, generate ai images, midjourney ai free, midjourneyfree, Midjourney free pricing"></meta>
+         <link rel="alternate" to="https://www.midjourneyfree.ai/pricing/about-us" hreflang="en-us" />
         <script src="https://www.paypal.com/sdk/js?client-id=AZ5e8vcidN92xFcUhs-033fP7DRqrsczTZwiwEfCTnckczXtresOHYh7sliWRFJ8-Qwtn1ZSMTP_i-F-&currency=USD&intent=subscription"></script>
       </Helmet>
       <section className="pricing_page">

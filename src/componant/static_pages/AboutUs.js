@@ -13,7 +13,10 @@ const About = () => {
     <div className="about-page">
         <Helmet>
         <meta charSet="utf-8" />
+        <link rel="alternate" to=" https://www.midjourneyfree.ai/about-us/" hreflang="en-us" />
         <title>Know More About Midjourney Free AI |About Us</title>
+        <meta name="keywords"
+    content="midjourney free, midjourney, ai image generator, midjourney ai, ai photo generator, ai generated images, free ai image generator, ai image generator free, mid journey, generate ai images, midjourney ai free, midjourneyfree, Midjourney free about us"></meta>
         <meta name="description" content="Know more about Midjourney Free AI, a transformative AI tool that lets you turn your imagination into images. Explore and dive into creativity with Midjourney Free."></meta>
       </Helmet>
       <Container>

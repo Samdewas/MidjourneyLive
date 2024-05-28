@@ -29,6 +29,9 @@ const Home = () => {
             <title>Mid Journey Free AI Image Generator | Powered by Dall-E</title>
         <meta name="description" content="Midjourney Free: Your gateway to effortless image generation. Convert your
 imagination, create stunning visuals, and bring your ideas to life with our AI image generator."></meta>
+<meta name="keywords"
+    content="midjourney free, midjourney, ai image generator, midjourney ai, ai photo generator, ai generated images, free ai image generator, ai image generator free, mid journey, generate ai images, midjourney ai free, midjourneyfree"></meta>
+         <link rel="alternate" to="https://www.midjourneyfree.ai/" hreflang="en-us" />
         <link rel="canonical" to= "https://MidJourneyfree.com" />
             </Helmet>
           
