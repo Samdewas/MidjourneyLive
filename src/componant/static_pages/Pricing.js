@@ -116,8 +116,8 @@ const Pricing = () => {
   return (
     <>
     <Helmet>
-        <title>Pricing | Mid Journey Free</title>
-        <meta name="description" content="Explore Mid Journey Free pricing page for transparent and accessible information on our offerings. Discover the best plan for your needs with clear pricing details and features."></meta>
+        <title>Check Out the Pricing Plans for Midjourney Free AI | Pricing</title>
+        <meta name="description" content="Check out Midjourney Free&#39;s pricing options, an affordable access to AI-powered image generation. Choose the plan that suits your needs and budget!"></meta>
         <link rel="canonical" to= "https://MidJourneyfree.com/pricing"/>
         <script src="https://www.paypal.com/sdk/js?client-id=AZ5e8vcidN92xFcUhs-033fP7DRqrsczTZwiwEfCTnckczXtresOHYh7sliWRFJ8-Qwtn1ZSMTP_i-F-&currency=USD&intent=subscription"></script>
       </Helmet>

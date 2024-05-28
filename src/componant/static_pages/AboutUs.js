@@ -13,8 +13,8 @@ const About = () => {
     <div className="about-page">
         <Helmet>
         <meta charSet="utf-8" />
-        <title>About Us | Mid Journey</title>
-        <meta name="description" content="Experience your creative spirit with prompt AI-generated images. With Mid Journey you can generate limitless images through Midjourney Free AI image generator"></meta>
+        <title>Know More About Midjourney Free AI |About Us</title>
+        <meta name="description" content="Know more about Midjourney Free AI, a transformative AI tool that lets you turn your imagination into images. Explore and dive into creativity with Midjourney Free."></meta>
       </Helmet>
       <Container>
         <Row className="align-items-center mt-4">

@@ -27,7 +27,8 @@ const Home = () => {
         <>
             <Helmet>
             <title>Mid Journey Free AI Image Generator | Powered by Dall-E</title>
-        <meta name="description" content="Mid Journey Free is an AI Image generator app, which channels text to AI images programming to create AI for you. Enter a prompt and see your AI images come to life."></meta>
+        <meta name="description" content="Midjourney Free: Your gateway to effortless image generation. Convert your
+imagination, create stunning visuals, and bring your ideas to life with our AI image generator."></meta>
         <link rel="canonical" to= "https://MidJourneyfree.com" />
             </Helmet>
           

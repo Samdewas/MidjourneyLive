@@ -50,8 +50,9 @@ const Contactus = () => {
   return (
     <>
      <Helmet>
-        <title>Contact- Us | Mid Journey</title>
-        <meta name="description" content="Contact Us - Mid Journey Free"></meta>
+        <title>Contact Midjourney Free | AI-Powered Image Generation Tool</title>
+        <meta name="description" content="Get in touch with Midjourney Free for inquiries, feedback, or support. Our team is
+here to assist you with questions regarding our AI-powered image generation tool."></meta>
         <link rel="canonical" to= "https://MidJourneyfree.com/contact-us"/>
       </Helmet>
     <div className="contact-us pb-3">
