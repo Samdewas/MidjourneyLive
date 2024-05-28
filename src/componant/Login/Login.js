@@ -234,10 +234,10 @@ const Login = () => {
             </form>
           </div>
 
-          <div className="or-line mt-4">Or Sign in with Google</div>
-          <div className="google_signup_main">
+          {/* <div className="or-line mt-4">Or Sign in with Google</div> */}
+          {/* <div className="google_signup_main">
             <GoogleLogin onSuccess={responseGoogle} onError={onFailure} />
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

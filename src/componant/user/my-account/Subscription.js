@@ -29,7 +29,7 @@ const Subscription = () => {
       title: "Are you sure?",
       text: "Do you really want to cancel your subscription ?",
       icon: "info",
-      buttons: ["Yes","No"],
+      buttons: ["No","Yes"],
       dangerMode: true,
     }).then(function (isConfirm) {
       if (isConfirm) {
