@@ -33,6 +33,8 @@ import HelpCenter from "./componant/user/HelpCenter";
 import MidHome from "./componant/Front/MidHome";
 import Refund from "./componant/static_pages/Refund";
 import Pricingpolicy from "./componant/static_pages/Pricingpolicy";
+import A_Designers_Guide_To_Midjourney_Free_Ai from "./componant/static_pages/blog/A_Designers_Guide_To_Midjourney_Free_Ai";
+import TexttoImageAIGeneratorModule from "./componant/static_pages/blog/TexttoImageAIGeneratorModule";
 function App() {
   return (
     <div className="App">
@@ -63,6 +65,8 @@ function App() {
           <Route path="/terms-condition" element={<TermsCondition />} />
           <Route path="/pricing-policy" element={<Pricingpolicy />} />
           <Route path="/faq" element={<Faq />} />
+          <Route path="/blog/a-designers-guide-to-midjourney-free-ai" element={<A_Designers_Guide_To_Midjourney_Free_Ai />} />
+          <Route path="/blog/text-to-image-ai-generator-module" element={<TexttoImageAIGeneratorModule />} />
        
         </Routes>
         <MainRequest />
