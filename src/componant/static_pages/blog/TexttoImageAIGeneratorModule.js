@@ -1,11 +1,13 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
 import '../blog/assets_blog/blog.css'
+import blogImg from './assets_blog/img/blog2.jpg'
 const TexttoImageAIGeneratorModule = () => {
     return (
         <section className='midj_blog_detail'>
             <Container>
                 <h1>Exploring Midjourney - The Text-to-Image AI Generator Module</h1>
+                <img src={blogImg} alt='A Designers Guide To Midjourney Free Ai' className='img-fluid mb-3' />
                 <p>In the fast-moving world of artificial intelligence (AI), there are tons of new and exciting tools being developed all the time. One of the most impressive ones is Midjourney. It's not your typical AI program – it's an <b>AI graphic generator</b> that converts textual prompts into images. This means it changes how people can share their ideas and stories online. Let's take a closer look at Midjourney to understand what makes it one of the most sought-after AI tools today. In this comprehensive exploration, we'll delve deeper into Midjourney, understanding its essence, mechanics, advantages, limitations, scope, exemplary applications, and the accessibility offered by <b>Midjourney AI</b> Free.</p>
 
                 <h3>Understanding Midjourney:</h3>

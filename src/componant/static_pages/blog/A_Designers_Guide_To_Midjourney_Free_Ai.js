@@ -1,11 +1,13 @@
 import React from 'react'
 import '../blog/assets_blog/blog.css'
+import blogImg from './assets_blog/img/blog1.jpg'
 import { Container } from 'react-bootstrap'
 const A_Designers_Guide_To_Midjourney_Free_Ai = () => {
     return (
         <section className='midj_blog_detail'>
             <Container>
                 <h1>A Designer's Guide To Midjourney Free Ai</h1>
+                <img src={blogImg} alt='A Designers Guide To Midjourney Free Ai' className='img-fluid mb-3' />
                 <p>In today's fast-paced digital landscape, designers are constantly on the lookout for innovative tools that can make the creative process less overwhelming and more rewarding by helping them produce visually stunning work efficiently. With the invention of artificial intelligence (AI), a new wave of possibilities has emerged, transforming the way designers approach image generation. Among these tools, Midjourney has been a groundbreaking innovation, offering a free AI-powered platform that empowers designers to transform textual prompts into creative and powerful images effortlessly. Let's delve into the intricate workings of Midjourney and explore how it serves as the best AI image generator for designers of all skill levels.</p>
                 <h3>The Power of Midjourney AI Art:</h3>
                 <p>Midjourney stands at the forefront of AI artistry, harnessing the power of advanced algorithms to interpret textual prompts and generate visually striking images with remarkable accuracy and detail with the given prompt. Whether you're an experienced designer seeking to streamline your workflow or a novice exploring the endless possibilities of the designing world, Midjourney's intuitive interface makes the image creation process accessible to all. By simply entering a textual prompt, users can witness their ideas come to life in the form of intricate designs, vibrant illustrations, or evocative landscapes, all backed by precision and finesse.</p>

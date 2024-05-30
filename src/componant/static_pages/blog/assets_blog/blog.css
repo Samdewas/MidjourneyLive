@@ -25,3 +25,8 @@
     font-weight: 500;
     font-size: 18px;
 }
+.midj_blog_detail img{
+    max-height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
