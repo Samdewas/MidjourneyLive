@@ -93,6 +93,9 @@ const Header = () => {
                                         {/* <li onClick={() => setShowmobileMenu(!showmobileMenu)}><Link activeClassName="active" to="/privacy-policy">Privacy Policy</Link></li> */}
                                         <li onClick={() => setShowmobileMenu(!showmobileMenu)}><Link activeClassName="active" to="/contact-us">Contact Us</Link></li>
 
+                                        <li className='d-none'><Link to="/blog/a-designers-guide-to-midjourney-free-ai">Designer's Guide</Link></li>
+                                        <li className='d-none'><Link to="/blog/text-to-image-ai-generator-module">Text-to-Image AI Generator Module</Link></li>
+
                                     </ul> :
                                     <Offcanvas show={show} onHide={handleClose}>
                                         <div className='mobileOffcanvas'>
