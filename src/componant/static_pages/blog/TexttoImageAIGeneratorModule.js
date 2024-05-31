@@ -2,8 +2,17 @@ import React from 'react'
 import { Container } from 'react-bootstrap'
 import '../blog/assets_blog/blog.css'
 import blogImg from './assets_blog/img/blog2.jpg'
+import { Helmet } from 'react-helmet'
 const TexttoImageAIGeneratorModule = () => {
     return (
+        <>
+        <Helmet>
+        <meta charSet="utf-8" />
+        <link rel="alternate" to=" https://www.midjourneyfree.ai/blog/text-to-image-ai-generator-module" hreflang="en-us" />
+        <title>Exploring Midjourney - The Text-to-Image AI Generator Module</title>
+        <meta name="keywords" content="Midjourney Free"></meta>
+        <meta name="description" content="In the fast-moving world of artificial intelligence (AI), there are tons of new and exciting tools being developed all the time. One of the most impressive ones is Midjourney."></meta>
+      </Helmet>
         <section className='midj_blog_detail'>
             <Container>
                 <h1>Exploring Midjourney - The Text-to-Image AI Generator Module</h1>
@@ -69,6 +78,7 @@ const TexttoImageAIGeneratorModule = () => {
 
             </Container>
         </section>
+        </>
     )
 }
 

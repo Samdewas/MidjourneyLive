@@ -2,8 +2,17 @@ import React from 'react'
 import '../blog/assets_blog/blog.css'
 import blogImg from './assets_blog/img/blog1.jpg'
 import { Container } from 'react-bootstrap'
+import { Helmet } from 'react-helmet'
 const A_Designers_Guide_To_Midjourney_Free_Ai = () => {
     return (
+        <>
+        <Helmet>
+        <meta charSet="utf-8" />
+        <link rel="alternate" to=" https://www.midjourneyfree.ai/blog/a-designers-guide-to-midjourney-free-ai" hreflang="en-us" />
+        <title>A Designer's Guide To Midjourney Free Ai</title>
+        <meta name="keywords" content="Midjourney Free Ai"></meta>
+        <meta name="description" content="In today's fast-paced digital landscape, designers are constantly on the lookout for innovative tools that can make the creative process less overwhelming and more rewarding by helping them produce visually stunning work efficiently."></meta>
+      </Helmet>
         <section className='midj_blog_detail'>
             <Container>
                 <h1>A Designer's Guide To Midjourney Free Ai</h1>
@@ -44,6 +53,7 @@ const A_Designers_Guide_To_Midjourney_Free_Ai = () => {
                 <p>In conclusion, Midjourney emerges as the ultimate AI image generator for designers, offering a potent blend of accessibility, versatility, and creative potential. With its intuitive interface, robust AI capabilities, and commitment to democratizing creativity, Midjourney empowers designers everywhere to channel their imagination and craft visual masterpieces that reinforce their personal and professional endeavors. </p>
             </Container>
         </section>
+        </>
     )
 }
 
