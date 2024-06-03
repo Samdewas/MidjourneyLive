@@ -7,15 +7,16 @@ import { Link } from 'react-router-dom';
 // import { Helmet } from 'react-helmet';
 // import Aboutimg from "../Assets/images/aboutimg.svg";
 const Thankyou = () => {
+
   useEffect(() => {
     window.scrollTo(0, 0)
 
-  window.gtag('event', 'conversion', {
-      'send_to': 'AW-11259165471/F_pbCPnOx50ZEJ_25Pgp',
-      'value': 7,
-      'currency': 'USD',
-      'transaction_id': ''
-  });
+  // window.gtag('event', 'conversion', {
+  //     'send_to': 'AW-11259165471/F_pbCPnOx50ZEJ_25Pgp',
+  //     'value': 7,
+  //     'currency': 'USD',
+  //     'transaction_id': ''
+  // });
 
 
 
