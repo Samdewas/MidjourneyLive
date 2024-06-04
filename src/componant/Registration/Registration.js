@@ -251,9 +251,9 @@ const Registration = () => {
           </div>
 
           
-          {/* <div className="google_signup_main">
+          <div className="google_signup_main">
             <GoogleLogin onSuccess={responseGoogle} onError={onFailure} />
-          </div> */}
+          </div>
 
         </div>
       </div>

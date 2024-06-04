@@ -269,13 +269,13 @@
   font-family: Jost;
   font-size: 16px;
   font-weight: 500;
-  color: #141414;
+  color: #fff;
   border: 0;
   background: transparent;
   padding: 0 15px;
 }
 .currency_converter button span {
-  border: 1px solid #000;
+  border: 1px solid #fff;
   line-height: normal;
   width: 20px;
   height: 20px;
@@ -289,7 +289,7 @@
   content: '';
   width: 12px;
   height: 12px;
-  background: #000;
+  background: #9de8ee;
   display: block;
   border-radius: 50%;
   position: relative;

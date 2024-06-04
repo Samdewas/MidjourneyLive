@@ -77,7 +77,7 @@ const Pricing = () => {
         if (response.status == 200) {
           userdata();
           swal(response.data.msg, "", "success");
-          if (plan_id == 1) {
+          if (plan_id == 3) {
             navigate("/user/dashboard");
           } else {
             navigate("/user/thank-you");
