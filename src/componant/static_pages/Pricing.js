@@ -145,9 +145,9 @@ const Pricing = () => {
              <label> Monthly</label> 
           </div> */}
          {!loader ? <><div className="billing-type-btns">
-            <div className="offernote">
+            {/* <div className="offernote">
               Pay annually and <span>Save up to 17%</span>{" "}
-            </div>
+            </div> */}
             <button
               onClick={() => {setShowBillingType("month"); setOnetime(false)}}
               className={showBillingType === "month" ? "active" : " "}
