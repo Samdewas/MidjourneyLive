@@ -35,6 +35,6 @@ export default function MainRequest() {
     gtag("js", new Date());
     gtag("config", "G-CJSPGZ65NW", { page_path: window.location.pathname });
   };
-
+ 
   return null
 }
