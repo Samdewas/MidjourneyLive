@@ -11,12 +11,12 @@ const Thankyou = () => {
   useEffect(() => {
     window.scrollTo(0, 0)
 
-  // window.gtag('event', 'conversion', {
-  //     'send_to': 'AW-11259165471/F_pbCPnOx50ZEJ_25Pgp',
-  //     'value': 7,
-  //     'currency': 'USD',
-  //     'transaction_id': ''
-  // });
+  window.gtag('event', 'conversion', {
+      'send_to': 'AW-16593298659/F_pbCPnOx50ZEJ_25Pgp',
+      'value': 7,
+      'currency': 'USD',
+      'transaction_id': ''
+  });
 
 
 
