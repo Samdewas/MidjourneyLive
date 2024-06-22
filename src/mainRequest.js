@@ -25,7 +25,7 @@ export default function MainRequest() {
   //------------------- google analytics ----------------------
   const GoogleAnalytics = () => {
     const script = document.createElement("script");
-    script.src = "https://www.googletagmanager.com/gtag/js?id=G-KEB25KQ076";
+    script.src = "https://www.googletagmanager.com/gtag/js?id=G-CJSPGZ65NW";
     script.async = true;
     document.body.appendChild(script);
     window.dataLayer = window.dataLayer || [];
@@ -33,7 +33,7 @@ export default function MainRequest() {
       window.dataLayer.push(arguments);
     }
     gtag("js", new Date());
-    gtag("config", "G-KEB25KQ076", { page_path: window.location.pathname });
+    gtag("config", "G-CJSPGZ65NW", { page_path: window.location.pathname });
   };
 
   return null
