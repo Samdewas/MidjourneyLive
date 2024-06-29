@@ -71,13 +71,13 @@ const MidHome = ({ HowItWorkSec, FaqSec }) => {
 
           <div className="photobanner">
             <img className="first" src={img1} alt="" />
-            <img src={img2} alt="" />
-            <img src={img3} alt="" />
-            <img src={img4} alt="" />
-            <img src={img5} alt="" />
-            <img src={img6} alt="" />
-            <img src={img7} alt="" />
-            <img src={img8} alt="" />
+            <img src={img2} alt="midjourney" />
+            <img src={img3} alt="text to image" />
+            <img src={img4} alt="image generator" />
+            <img src={img5} alt="midjourney free" />
+            <img src={img6} alt="midjourney free ai" />
+            <img src={img7} alt="text to image generator" />
+            <img src={img8} alt="midjourney ai online" />
             <img src={img9} alt="" />
             <img src={img10} alt="" />
             <img src={img11} alt="" />

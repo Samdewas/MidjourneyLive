@@ -67,21 +67,21 @@ imagination, create stunning visuals, and bring your ideas to life with our AI i
                     <div className="row">
                         <div className="col">
                             <div className="box">
-                                <img width={400} height={307} src={img1} alt="" />
+                                <img width={400} height={307} src={img1} alt="text to image" />
                                 <p className="step">Enter Your Prompt</p>
                                 <p className="dec">Click on the input field and <br />enter your prompt text.</p>
                             </div>
                         </div>
                         <div className="col">
                             <div className="box">
-                                <img width={400} height={307} src={img2} alt="" />
+                                <img width={400} height={307} src={img2} alt="image generator" />
                                 <p className="step">Review and Refine</p>
                                 <p className="dec">Evaluate the generated image and <br /> refine your prompt if needed.</p>
                             </div>
                         </div>
                         <div className="col">
                             <div className="box">
-                                <img width={400} height={307} src={img3} alt="" />
+                                <img width={400} height={307} src={img3} alt="midjourney" />
                                 <p className="step">Download the Image</p>
                                 <p className="dec">Use the provided option to save <br /> the image to your device.</p>
                             </div>
