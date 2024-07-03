@@ -35,6 +35,7 @@ import Refund from "./componant/static_pages/Refund";
 import Pricingpolicy from "./componant/static_pages/Pricingpolicy";
 import A_Designers_Guide_To_Midjourney_Free_Ai from "./componant/static_pages/blog/A_Designers_Guide_To_Midjourney_Free_Ai";
 import TexttoImageAIGeneratorModule from "./componant/static_pages/blog/TexttoImageAIGeneratorModule";
+import Aidemystifiedexploring from "./componant/static_pages/blog/Aidemystifiedexploring";
 function App() {
   return (
     <div className="App">
@@ -67,6 +68,7 @@ function App() {
           <Route path="/faq" element={<Faq />} />
           <Route path="/blog/a-designers-guide-to-midjourney-free-ai" element={<A_Designers_Guide_To_Midjourney_Free_Ai />} />
           <Route path="/blog/text-to-image-ai-generator-module" element={<TexttoImageAIGeneratorModule />} />
+          <Route path="/blog/ai-demystified-exploring-the-possibilities" element={<Aidemystifiedexploring />} />
        
         </Routes>
         <MainRequest />
