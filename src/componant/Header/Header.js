@@ -95,6 +95,7 @@ const Header = () => {
 
                                         <li className='d-none'><Link to="/blog/a-designers-guide-to-midjourney-free-ai">Designer's Guide</Link></li>
                                         <li className='d-none'><Link to="/blog/text-to-image-ai-generator-module">Text-to-Image AI Generator Module</Link></li>
+                                        <li className='d-none'><Link to="/blog/ai-demystified-exploring-the-possibilities">Ai-demystified-exploring</Link></li>
 
                                     </ul> :
                                     <Offcanvas show={show} onHide={handleClose}>

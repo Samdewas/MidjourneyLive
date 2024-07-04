@@ -20,6 +20,7 @@ import MainRequest from "./mainRequest";
 import MyAccount from "./componant/user/MyAccount";
 import Invoice from "./componant/user/my-account/Invoice";
 import AboutUs from "./componant/static_pages/AboutUs";
+import Blogs from "./componant/static_pages/blogs";
 import Pricing from "./componant/static_pages/Pricing";
 import Contactus from "./componant/static_pages/ContactUs";
 import Privacypolicy from "./componant/static_pages/PrivacyPolicy";
@@ -35,7 +36,9 @@ import Refund from "./componant/static_pages/Refund";
 import Pricingpolicy from "./componant/static_pages/Pricingpolicy";
 import A_Designers_Guide_To_Midjourney_Free_Ai from "./componant/static_pages/blog/A_Designers_Guide_To_Midjourney_Free_Ai";
 import TexttoImageAIGeneratorModule from "./componant/static_pages/blog/TexttoImageAIGeneratorModule";
-import Aidemystifiedexploring from "./componant/static_pages/blog/Aidemystifiedexploring";
+import AIblogs from "./componant/static_pages/blog/AIblogs";
+
+
 function App() {
   return (
     <div className="App">
@@ -59,6 +62,7 @@ function App() {
           <Route path="/user/invoice" element={<Invoice />} />
           <Route path="/user/thank-you" element={<Thankyou />} />
           <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/blogs" element={<Blogs />} />
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/contact-us" element={<Contactus />} />
           <Route path="/privacy-policy" element={<Privacypolicy />} />
@@ -68,7 +72,7 @@ function App() {
           <Route path="/faq" element={<Faq />} />
           <Route path="/blog/a-designers-guide-to-midjourney-free-ai" element={<A_Designers_Guide_To_Midjourney_Free_Ai />} />
           <Route path="/blog/text-to-image-ai-generator-module" element={<TexttoImageAIGeneratorModule />} />
-          <Route path="/blog/ai-demystified-exploring-the-possibilities" element={<Aidemystifiedexploring />} />
+          <Route path="/blog/ai-demystified-exploring-the-possibilities" element={<AIblogs/>} />
        
         </Routes>
         <MainRequest />

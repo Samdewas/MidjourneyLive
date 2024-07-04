@@ -740,6 +740,16 @@ form.search-generate-form {
     letter-spacing: 1px
 }
 
+.blog_lists a {
+    background: #9de8ee;
+    border-radius: 11px;
+    padding: 8px 29px;
+    display: block;
+    width: 148px;
+    margin-top: 31px;
+    color: #000;
+}
+
 .about-img-generater .img-genrater-first .sub-title,
 .tab__content p {
     line-height: 24px;

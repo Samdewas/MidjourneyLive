@@ -50,7 +50,7 @@ const Footer = () => {
                                     <li><Link to="/about-us">About Us <img src={arrow} width={26} height={26} alt='Midjourney free' /></Link></li>
                                     <li><Link to="/contact-us">Contact Us <img src={arrow} width={26} height={26} alt='Midjourney free' /></Link></li>
                                     <li><Link to="/pricing">Pricing Plans <img src={arrow} width={26} height={26} alt='Midjourney free' /></Link></li>
-                                    <li><Link to="/">How it Works&nbsp; <img src={arrow} width={26} height={26} alt='Midjourney free' /></Link></li>
+                                    <li><Link to="/blogs">Blogs&nbsp; <img src={arrow} width={26} height={26} alt='Midjourney free' /></Link></li>
                                 </ul>
                             </div>
                         </div>
